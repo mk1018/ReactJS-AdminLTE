@@ -27,6 +27,10 @@ function initialize(app){
         res.render('widgets.html');
     });
 
+    app.get('/widgets2', function(req, res){
+        res.render('widgets2.html');
+    });
+
     app.get('/buttons.html', function(req, res){
         res.render('buttons.html');
     });
