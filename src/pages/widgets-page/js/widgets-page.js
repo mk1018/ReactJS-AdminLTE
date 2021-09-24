@@ -10,7 +10,7 @@ define(
         'react-dom',
         'jquery',
         '../../../widgets.src'
-    ], 
+    ],
     function (React, createReactClass, ReactDOM, $, reactjsAdminlte) {
         var HeaderBar = reactjsAdminlte.HeaderBar;
         var NavigationMenu = reactjsAdminlte.NavigationMenu;
